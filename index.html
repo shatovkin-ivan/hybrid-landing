@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online programmatic Meet up</title>
+
+    <link rel="preload" as="font" href="fonts/opensans-bold-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/opensans-regular-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/opensans-semibold-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/opensans-bold-webfont.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/opensans-regular-webfont.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/opensans-semibold-webfont.woff" type="font/woff" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__wrap">
+                <p class="header__text">
+                    23 апреля
+                </p>
+                <h1 class="title header__title visually-hidden">
+                    Online programmatic Meet up
+                </h1>
+                <div class="header__logo">
+                    <img src="images/logo.svg" alt="Online programmatic Meet up">
+                </div>
+                <p class="header__text">
+                    15:00
+                </p>
+            </div>
+            <p class="header__description">
+                Programmatic-инструменты в эпоху самоизоляции
+            </p>
+        </div>
+    </header>
+    <main id="main">
+        <section class="intro">
+            <div class="container intro__container">
+                <h2 class="intro__title visually-hidden">
+                    Информация о мероприятии
+                </h2>
+                <time class="intro__date" datetime="2022-04-23 15:00">
+                    23 апреля в 15:00
+                </time>
+                <p class="intro__text">
+                    Команда Hybrid приглашает Вас присоединиться к <span>онлайн-встрече</span> для обсуждения
+                    <span>антикризисных предложений.</span>
+                </p>
+                <p class="intro__description">
+                    Эксперты индустрии расскажут, как помочь брендам в непростое для рынка время. Каждый
+                    зарегистрированный участник получит видеозапись вебинара
+                </p>
+            </div>
+        </section>
+        <section class="programm">
+            <div class="container programm__container">
+                <h2 class="programm__title">
+                    Программа Online Meetup
+                </h2>
+                <ul class="programm__list">
+                    <li class="programm__item card" data-speaker="1">
+                        <figure class="card__img">
+                            <div class="card__img-field">
+                                <picture>
+                                    <source srcset="images/speaker-1.webp" type="image/webp">
+                                    <img src="images/speaker-1.png" alt="Евгений Леонтьев">
+                                </picture>
+                                <svg class="card__img-icon crown animateElement" width="90" height="83"
+                                    viewBox="0 0 90 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M59.4949 43.4798C51.8909 41.0261 40.363 44.2758 34.5499 46.7601L30.5431 22.3458L44.5199 23.4798L51.5147 11.8115L63.7613 22.3458L74.6015 18.8395L77.4649 51.4798C77.4649 52.9798 66.3912 45.7052 59.4949 43.4798ZM59.4949 43.4798C51.8984 43.2837 38.5692 42.0889 30.5432 48.9798C27.049 51.9798 24.0108 56.7386 23.5549 60.9798C23.1901 64.3728 19.3372 66.8472 16.0674 67.4798C18.3 70.1131 25.3662 70.7966 32.0407 69.9798C38.7152 69.1631 46.5321 62.4132 47.9657 57.5874"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <circle class="crown-circle crown-circle-1" cx="50.5" cy="6.5" r="4.5"
+                                        stroke="#FDE565" stroke-linecap="round" stroke-width="4" />
+                                    <circle class="crown-circle crown-circle-2" cx="26.5" cy="17.5" r="4.5"
+                                        stroke="#FDE565" stroke-linecap="round" stroke-width="4" />
+                                    <circle class="crown-circle crown-circle-3" cx="76.5" cy="13.5" r="4.5"
+                                        stroke="#FDE565" stroke-linecap="round" stroke-width="4" />
+                                </svg>
+                            </div>
+                            <figcaption class="card__autor">
+                                Евгений Леонтьев,
+                                <span class="card__autor-role">
+                                    CEO Hybrid Russia
+                                </span>
+                            </figcaption>
+                        </figure>
+                        <h3 class="card__title">
+                            Актуальность Rewarded Video в экосистеме мобильной рекламы.
+                        </h3>
+                        <p class="card__text">
+                            Как сделать, чтобы вашу рекламу посмотрели все пользователи? Стремительный рост популярности
+                            формата Rewarded. Актуальные исследования. Весомые преимущества.
+                            Самое время задуматься о возможностях rewarded video в приложениях и протестировать этот
+                            формат.
+                        </p>
+                    </li>
+
+                    <li class="programm__item card" data-speaker="2">
+                        <figure class="card__img">
+                            <div class="card__img-field">
+                                <picture>
+                                    <source srcset="images/speaker-2.webp" type="image/webp">
+                                    <img src="images/speaker-2.png" alt="Сергей Ковалев">
+                                </picture>
+                                <svg class="card__img-icon animateElement" width="236" height="110"
+                                    viewBox="0 0 236 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="cape"
+                                        d="M149.377 8.96624C136.068 14.9723 102.863 27.4873 76.5078 29.4992C50.1527 31.5111 27.9214 27.6878 20.1002 25.5247C16.7741 29.3595 13.0184 39.5279 24.6035 49.5226"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path class="cape"
+                                        d="M58.1961 54.0075C58.1961 54.0075 51.6442 56.3055 40.7269 57.6655C17.7665 60.5257 11.3701 58.0681 3.26537 57.6825C0.863609 62.1566 -0.565576 72.9036 12.9318 80.0989"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path class="cape"
+                                        d="M94.6373 58.491C81.6646 70.9969 72.1949 73.4004 62.2003 78.0057C43.7349 86.514 30.5968 84.8578 22.7059 86.7503C21.6444 91.7177 23.2625 102.438 38.2272 105.579"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path d="M144.055 27.5C146.551 30.8333 154.737 38.1 167.516 40.5" stroke="#FDE565"
+                                        stroke-width="3" stroke-linecap="round" />
+                                    <path
+                                        d="M208.448 2C233.905 2 215.636 20.4 208.448 28C201.26 35.6 197.466 38.5 196.468 39C202.79 38.5 217.333 34.7 224.92 23.5C232.508 12.3 234.072 13.1667 233.905 15"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path
+                                        d="M200.467 46.5C200.467 50.849 196.74 54.5 191.983 54.5C187.227 54.5 183.5 50.849 183.5 46.5C183.5 42.151 187.227 38.5 191.983 38.5C196.74 38.5 200.467 42.151 200.467 46.5Z"
+                                        stroke="#FDE565" stroke-width="3" />
+                                </svg>
+                            </div>
+                            <figcaption class="card__autor">
+                                Сергей Ковалев,
+                                <span class="card__autor-role">
+                                    Chief Commercial Officer Hybrid
+                                </span>
+                            </figcaption>
+                        </figure>
+                        <h3 class="card__title">
+                            Dynamic Creative Optimization (DCO): новые возможности динамической персонализации.
+                        </h3>
+                        <p class="card__text">
+                            Рекламная технология, которая ускоряет, масштабирует и автоматизирует творческий процесс.
+                            Показывайте рекламу, которая отвечает предпочтениям и интересам ваших пользователей.
+                            Запускайте кампании с динамическими креативами и станьте ещё заметнее для пользователей!
+                        </p>
+                    </li>
+
+                    <li class="programm__item card" data-speaker="3">
+                        <figure class="card__img">
+                            <div class="card__img-field">
+                                <picture>
+                                    <source srcset="images/speaker-3.webp" type="image/webp">
+                                    <img src="images/speaker-3.png" alt="Оксана Казинская">
+                                </picture>
+                                <svg class="card__img-icon bow animateElement" width="101" height="102"
+                                    viewBox="0 0 101 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M57.1937 63.0714C54.8009 66.5632 49.8252 67.4877 46.0462 64.9696C42.2672 62.4516 41.2808 57.5544 43.6736 54.0626C46.0664 50.5707 51.0422 49.6463 54.8212 52.1643C58.6001 54.6824 59.5866 59.5796 57.1937 63.0714Z"
+                                        stroke="#FDE565" stroke-width="3" />
+                                    <path
+                                        d="M62.1554 50.6512C70.7259 45.8287 88.2967 37.378 90.0156 42.1547C92.1643 48.1256 83.7036 54.6359 84.0808 57.8567C84.4581 61.0776 87.5521 66.1205 84.2433 69.3687C82.2944 71.282 78.1222 74.48 75.8542 73.1153C74.0398 72.0235 63.9476 64.4537 59.1283 60.8053"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path
+                                        d="M28.2456 61.4953C18.7698 63.8814 14.4252 62.5614 14.0696 57.4557C13.6251 51.0737 23.4897 50.9437 23.996 47.7111C24.5023 44.4784 20.169 36.7483 22.1673 34.8867C24.1655 33.025 29.3833 31.5618 31.1805 33.4979C32.6183 35.0467 42.4604 46.4527 46.0781 51.2943"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <figcaption class="card__autor">
+                                Оксана Казинская,
+                                <span class="card__autor-role">
+                                    Head of Product Marketing Hybrid
+                                </span>
+                            </figcaption>
+                        </figure>
+                        <h3 class="card__title">
+                            Hybrid Air: таргетинг на качество атмосферного воздуха как новый инструмент продвижения
+                        </h3>
+                        <p class="card__text">
+                            Мы расширяем возможности инструмента Hybrid Climate, в который входит погодный таргетинг
+                            Hybrid Weather, и открываем доступ к новому таргетингу Hybrid Air. Данные о вредных примесях
+                            в воздухе — это отличный способ для создания эффективной рекламы климатической техники
+                            (увлажнители и очистители воздуха), фарм-препаратов, средств индивидуальной защиты и др.
+                            Этот таргетинг скоро станет очень актуальным, а бренды, которые прибегнут к его
+                            использованию, быстро окажутся на шаг впереди своих конкурентов.
+                        </p>
+                    </li>
+
+                    <li class="programm__item card" data-speaker="4">
+                        <figure class="card__img">
+                            <div class="card__img-field">
+                                <picture>
+                                    <source srcset="images/speaker-4.webp" type="image/webp">
+                                    <img src="images/speaker-4.png" alt="Яна Третьякова">
+                                </picture>
+                                <svg class="card__img-icon animateElement" width="139" height="51" viewBox="0 0 139 51"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="ear"
+                                        d="M10.1574 48.8657L2.66992 12.8657C6.99603 13.1991 16.6466 14.5658 20.6399 17.3657C24.6333 20.1657 28.9594 20.8657 30.6233 20.8657"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path class="ear" d="M18.6436 30.3657L24.1344 35.8657" stroke="#FDE565" stroke-width="3"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M100 20.8657C108.652 13.5323 127.554 -0.43433 133.943 2.36567C140.333 5.16567 136.606 34.5324 133.943 48.8657"
+                                        stroke="#FDE565" stroke-width="3" stroke-linecap="round" />
+                                    <path d="M114.483 32.8657L118.976 25.3657" stroke="#FDE565" stroke-width="3"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <figcaption class="card__autor">
+                                Яна Третьякова,
+                                <span class="card__autor-role">
+                                    Client Success Lead Hybrid
+                                </span>
+                            </figcaption>
+                        </figure>
+                        <h3 class="card__title">
+                            Программатик в период самоизоляции. Как бренду удержать пользователя?
+                        </h3>
+                        <p class="card__text">
+                            COVID-19 изменил мир диджитал. Какие форматы и каналы позволяют выиграть гонку за внимание и
+                            сохранить бюджет? Как бренду приспособиться к новым реалиям.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <button class="btn btn_violet footer__btn open-modal" data-btn="register" type="button">
+                регистрация
+            </button>
+        </div>
+    </footer>
+
+    <div class="modal" data-modal="register">
+        <div class="modal__window">
+            <button class="modal__close" type="button"></button>
+            <form action="http://jsonplaceholder.typicode.com" class="modal__form" id="registerForm" method="POST">
+                <fieldset class="modal__fields">
+                    <legend class="modal__title">
+                        Регистрация
+                    </legend>
+                    <label for="register-name-1" class="field-wrap modal__label">
+                        <input type="text" placeholder="Ваше имя" name="name" class="field modal__input"
+                            id="register-name-1">
+                        <span class="error-text"></span>
+                    </label>
+                    <label for="register-tel-1" class="field-wrap modal__label">
+                        <input type="tel" placeholder="Телефон*" name="tel" class="field modal__input"
+                            id="register-tel-1">
+                        <span class="error-text"></span>
+                    </label>
+                    <label for="register-email-1" class="field-wrap modal__label">
+                        <input type="text" placeholder="Email*" name="email" class="field modal__input"
+                            id="register-email-1">
+                        <span class="error-text"></span>
+                    </label>
+                    <label for="register-textarea-1" class="field-wrap modal__label">
+                        <textarea placeholder="Сообщение" name="message" class="field modal__textarea"
+                            id="register-textarea-1">
+                        </textarea>
+                    </label>
+                </fieldset>
+                <p class="modal__text">
+                    Нажимая кнопку, Вы соглашаетесь с Политикой Конфиденциальности
+                </p>
+                <button class="btn btn_black modal__btn" type="submit">
+                    ОТправить заявку
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/libs/inputmask.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
